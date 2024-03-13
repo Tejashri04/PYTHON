@@ -13,4 +13,8 @@ print(s.find('p',6,10))
 
 print(s.find('python',6,10))
 
-print(s.find('python',15,25))
+print(s.find('python',15,25)) 
+
+print(s.rfind('y'))         #rfind() searches from right to left
+
+print(s.index('y'))         
